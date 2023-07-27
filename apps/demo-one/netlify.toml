@@ -1,0 +1,3 @@
+[build]
+command = "CI='' npm run build:demoone"
+publish = "dist/apps/demo-one"
