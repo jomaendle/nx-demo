@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build:demoone": "npm i && nx run demo-one:build:production",
+    "build:demoone": "npm i -g @angular/cli && npm i && nx run demo-one:build:production",
     "build:demotwo": "npm i && nx run demo-two:build:production"
   },
   "private": true,
